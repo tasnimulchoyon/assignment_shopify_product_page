@@ -1,0 +1,352 @@
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+
+  .page-width{
+    max-width: 900px;
+}
+
+header{
+  padding: 20px 20px;
+}
+
+header .logo{
+  width: 25%;
+}
+header .nav{
+  width: 55%;
+  display: flex;
+  justify-content: flex-start;
+}
+header .cart{
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header .nav ul, header .cart ul {
+  gap: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header .logo img {
+  width: 55%;
+}
+
+header .nav ul li, header .cart ul li {
+  font-size: 10px;
+  line-height: 22px;
+}
+
+
+.aboutShop .about-box {
+  flex-wrap: wrap;
+  
+}
+
+.productSection .productBox{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px !important;
+}
+.productSection .fast-child{
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.productSection .second-child{
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.productSection .productBox .col_1_2 .groupImg .image {
+  max-width: 100% !important;
+  display: flex;
+  width: 100% !important;
+  justify-content: center;
+}
+
+.mlrs {
+  display: flex;
+  gap: 10px;
+  align-content: center;
+  justify-content: flex-end;
+}
+.productSection .productBox .col_1_2 .productDetail .breadCrumb span {
+  color: rgb(51, 70, 65);
+  /* line-height: 10px; */
+  font-size: 10px;
+}
+
+.productSection .productBox .col_1_2 .productDetail .breadCrumb {
+  width: 100%;
+}
+
+.productSection .productBox .col_1_2 .productDetail .productName h1 {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.productSection .productBox .col_1_2 .productDetail .review {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.productSection .productBox .col_1_2 .productDetail .price h4 {
+  font-size: 25px;
+  line-height: 32px;
+  margin-bottom: 14px;
+}
+
+.productSection .productBox .col_1_2 .productDetail .productDesc p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.productSection .productBox .col_1_2 .productDetail .sizeGBtn a {
+  font-size: 10px !important;
+}
+
+.productSection .productBox .col_1_2 .productDetail .size ul {
+  justify-content: center;
+  align-items: center;
+}
+
+.productSection .productBox .col_1_2 .productDetail .size li button {
+  padding: 8px 20px;
+
+}
+
+.productSection .productBox .col_1_2 .productDetail .addCartBtn {
+  width: 50%;
+}
+
+.productSection .productBox .col_1_2 .productDetail .productInfoTab h3 {
+  font-size: 16px;
+}
+
+.productSection .productBox .col_1_2 .productDetail .productInfoTab .inforMationFast .down p {font-size: 12px;
+  line-height: 20px;
+}
+
+.productSection .productBox .col_1_2 .productDetail .productInfoTab .inforMation {
+  padding: 15px 5px;
+}
+
+.aboutShop {
+  padding: 50px 20px;
+}
+
+.aboutShop .head {
+  margin-bottom: 10px;
+}
+
+.aboutShop .head h1 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.aboutShop .sTitle h2 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.aboutShop .about-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+.productCart .productBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.productCart .productBox .product {
+  max-width: 40%;
+}
+
+.aboutShop .about-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+.aboutShop .imgCaro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.aboutShop .imgCaro .imgBox {
+  width: 48%;
+ 
+}
+
+.sizeImg .head {
+margin-bottom: 10px;
+
+}
+
+.sizeImg .head h1 {
+font-size: 22px;
+font-weight: 600;
+line-height: 30px;
+}
+
+
+.productCart {
+  padding: 50px 20px;
+}
+
+.productCart .head {
+margin-bottom: 10px;
+}
+
+.productCart .head h1 {
+font-size: 22px;
+font-weight: 600;
+line-height: 30px;
+}
+
+.productCart .productBox {
+  gap: 25px 0px;
+}
+
+.productCart .productBox .product .product-info h2 {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  margin: 10px 0px 5px;
+}
+
+.productCart .productBox .product .product-info h4 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.productCart .productBox .product .product-info h5 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 25px;
+  margin: 5px 0px;
+}
+
+.logoPart {
+  padding: 20px 20px 50px;
+}
+
+.logoPart .head {
+  margin-bottom: 10px;
+  }
+  
+  .logoPart .head h1 {
+  font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+
+
+.logoPart .logoBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.logoPart .logoBox .lBox {
+  display: flex;
+  max-width: 50%;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoPart .logoBox .lBox img {
+  padding: 20px;
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+  
+}
+
